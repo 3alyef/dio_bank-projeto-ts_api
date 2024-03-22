@@ -31,27 +31,8 @@ const authenticateDB = async () => { // Confirm the authentication validation on
         console.error(`Erro na conexão: ${error}`);
     }
 
-    //await listAllAccounts()
     
 };
 
-
-/*
-
-const listAllAccounts = async () => {
-    try {
-        // Consulta o banco de dados para encontrar todos os registros na tabela
-        const accounts = await sequelize.models.account_authenticates;
-
-        // Retorna os registros encontrados
-        console.log(accounts)
-    } catch (error) {
-        // Trate os erros de consulta conforme necessário
-        console.error('Erro ao listar contas:', error);
-        throw error; // ou retorne null ou outro valor de erro
-    }
-};
-
-*/
 
 export { Sequelize, sequelize, DataTypes, Model, authenticateDB }

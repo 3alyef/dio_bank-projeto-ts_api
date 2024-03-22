@@ -25,14 +25,14 @@ class GlobalControler {
         const { email, password } = req.body;
 
         // fazer requisição ao database
-
+        
         const resp = await findUser(email, password);
         if(resp.autorizado) {
-            console.log('Autorizado!')
-            res.status(200)
-            res.json(resp.data) // envia de volta um objeto com os dados do usuário
+            console.log('Autorizado!');
+            res.status(200);
+            res.json(resp.data); // envia de volta um objeto com os dados do usuário
         } else {
-            console.log('Negado!')
+            console.log('Negado!');
             res.status(401);
         }   
     }
