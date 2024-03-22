@@ -1,4 +1,4 @@
-# Desenvolvendo o Dio Bank API
+# Desenvolvendo o Dio Bank Backend (API)
 
 Desenvolvido por [Alef A. Araujo](https://github.com/3alyef)
 
