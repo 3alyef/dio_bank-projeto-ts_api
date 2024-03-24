@@ -32,5 +32,4 @@ AccountTable.init ({
     modelName: 'account_authenticates'
 });
 
-
 export { AccountTable }
